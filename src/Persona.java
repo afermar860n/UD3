@@ -29,7 +29,6 @@ public class Persona {
     }
 
     void imprimirDatos() {
-        System.out.println("DNI: " + dni +
-                ", Nombre: " + devolverNombreCompleto());
+        System.out.println("DNI: " + dni + ", Nombre: " + devolverNombreCompleto());
     }
 }
