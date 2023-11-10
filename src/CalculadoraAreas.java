@@ -15,4 +15,5 @@ public class CalculadoraAreas {
         System.out.println(
                 "El área del trapecio de bases " + base1 + " y " + base2 + " con altura " + altura + " es " + area);
     }
+
 }
