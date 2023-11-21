@@ -2,10 +2,10 @@ package figuras;
 
 public class Rectangulo {
 
-    double base;
-    double altura;
+    public double base;
+    public double altura;
 
-    Rectangulo(){         //constructor para que funcione en prueba.
+    public Rectangulo(){         //constructor para que funcione en prueba.
 
     }
 
@@ -14,24 +14,16 @@ public class Rectangulo {
         this.altura = altura;
     }
 
-    Rectangulo(double base){        //para hacer cuadrado
+    public Rectangulo(double base){        //para hacer cuadrado
         this.base = base;
         this.altura = base;
     }
 
-    Rectangulo(double base, double altura) throws Exception {        //aviso de dimensiones no validas
-        if(base <= 0 || altura <= 0){
-            throw new Exception("dimensiones no validas");
-        }
-        this.base = base;
-        this.altura = altura;
-    }
-
-    double calcularArea(){
+    public double calcularArea(){
         return base*altura;
     }
 
-    double calcularPerimetro(){
+    public double calcularPerimetro(){
         return (base+altura)*2;
     }
 

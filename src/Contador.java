@@ -1,5 +1,5 @@
 import java.util.Random;
-class Contador {
+public class Contador {
     int cantidad;
     Contador() {
         Random r = new Random();
